@@ -1,0 +1,25 @@
+# Runtime data (created on first request): SQLite DB, secret key,
+# uploaded avatars and the mail log. Contains real user data — never commit.
+/data/
+
+# Local environment / secrets
+.env
+.env.*
+*.key
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Claude Code local settings
+.claude/settings.local.json
