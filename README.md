@@ -2,6 +2,8 @@
 
 A link-in-bio SaaS MVP in a single PHP file. Users claim a username, build a page of links, style it, share it, and see who clicks what.
 
+> 🎶 **Vibe coded.** A fun weekend project built by chatting with [Claude Code](https://claude.com/claude-code): modern PHP + SQLite, no frameworks, no build step, everything in one `index.php`. Not production-hardened; use it to learn, tinker and have fun.
+
 ## Run it
 
 ```bash
@@ -52,3 +54,7 @@ The login page also has a one-click "Open the demo account" button in developmen
 | `BRANCHIFY_PRETTY=1` | Generate `/username` URLs outside the built-in server (needs a rewrite rule that sends all requests to `index.php`) |
 
 Without pretty URLs, profiles live at `/?u=username`. Under Apache, the generated `data/.htaccess` denies web access to the data folder.
+
+## License
+
+[MIT](LICENSE)
